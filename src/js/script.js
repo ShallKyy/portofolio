@@ -11,7 +11,7 @@ addEventListener('click', function(e) {
 })
 
 btnIG.addEventListener('click', () =>{
-    const url = 'https://www.instagram.com/fertanindi/profile'
+    const url = 'https://www.instagram.com/fertanindi/'
     window.location.href = url, '_blank'
 })
 
