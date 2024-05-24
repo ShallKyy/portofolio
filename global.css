@@ -1,0 +1,48 @@
+/*? global clearing */
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color:#1D212B;
+    align-items: center;
+    padding: 1.7rem 5%;
+}
+
+.navbar-judul {
+    display: inline-block;
+    font-size: 1.7rem;
+    color: wheat;
+}
+
+.navbar-judul span {
+    color: white;
+}
+
+.navbar-nav a{
+    color: white;
+    text-decoration: none;
+    padding: 1.7rem 0.5rem;
+}
+
+.navbar-nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    color: slategrey;
+    transition: 0.3s ease-in;
+}
+
+/* HERO SECTION */
