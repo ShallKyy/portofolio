@@ -2,10 +2,8 @@ const navbar = document.querySelector('.navbar-nav')
 const hamburger = document.getElementById('hamburger') 
 const background = document.getElementById('background')
 const btnIG = document.getElementById('btn-ig')
-hamburger.onclick = () => {
-    navbar.classList.toggle('active')
-}
 
+console.log(hamburger)
 addEventListener('click', function(e) {
     if(!hamburger.contains(e.target) && !navbar.contains(e.target)) {
         navbar.classList.remove('active')
@@ -17,3 +15,6 @@ btnIG.addEventListener('click', () =>{
     window.location.href = url, '_blank'
 })
 
+hamburger.addEventListener('click', () => {
+    navbar.classList.toggle('active')
+})
