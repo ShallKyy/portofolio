@@ -8,6 +8,7 @@ body {
     font-family: 'Roboto', sans-serif;
     /* overflow:hidden;  */
     scroll-behavior: smooth;
+    background-color:#1D212B;
 }
 /* 
 @import url('https://fonts.googleapis.coZm/css2?family=Freeman&display=swap'); */
@@ -382,6 +383,10 @@ footer {
 
     .hero .content {
         padding-left: 2rem;
+    }
+    
+    .hero {
+       width :100%;
     }
     
     .projek-content {
