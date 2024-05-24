@@ -388,7 +388,14 @@ footer {
     .hero {
        width :100%;
     }
-    
+    .section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D212B;
+    }
     .projek-content {
         flex-direction: column;
     }
