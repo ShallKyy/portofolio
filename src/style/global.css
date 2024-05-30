@@ -309,6 +309,11 @@ footer {
         padding: 2rem 5px;
         text-align: center;
     }
+
+    .kontak-content {
+        margin: 0 2rem;
+        width: 75%;
+    }
     
 
 }
@@ -366,6 +371,7 @@ footer {
     
     .kontak-content {
         margin: 0 2rem;
+        width: 75%;
     }
     .hero .content {
         padding-left: 2rem;
@@ -394,6 +400,7 @@ footer {
     }
 
     .kontak-content {
+        width: 75%;
         margin: 0 2rem;
     }
 
